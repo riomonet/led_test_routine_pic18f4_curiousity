@@ -1,2 +1,17 @@
+# Build outputs
 build/
-build/*
+*.hex
+*.elf
+*.map
+*.lst
+*.cmf
+*.o
+
+# MPLAB X files (if any)
+*.X/
+dist/
+nbproject/private/
+
+# Editor backups
+*~
+*.swp
