@@ -1,0 +1,146 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F47Q10 ]
+[d frameptr 4065 ]
+"27 /home/alpha/projects/Active/embedded-projects/barry-tek/curiousity_HPC_led_test_routine/src/main.c
+[e E12905 . `uc
+PIN1 1
+PIN2 2
+PIN3 4
+PIN4 8
+PIN5 16
+PIN6 32
+PIN7 64
+PIN8 128
+]
+"4 /opt/microchip/xc8/v2.46/pic/sources/c99/common/fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 /opt/microchip/xc8/v2.46/pic/sources/c99/common/float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 /opt/microchip/xc8/v2.46/pic/sources/c99/common/ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 /opt/microchip/xc8/v2.46/pic/sources/c99/common/ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 /opt/microchip/xc8/v2.46/pic/sources/c99/common/ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 /opt/microchip/xc8/v2.46/pic/sources/c99/common/ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"10 /opt/microchip/xc8/v2.46/pic/sources/c99/common/sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 /opt/microchip/xc8/v2.46/pic/sources/c99/common/sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 /opt/microchip/xc8/v2.46/pic/sources/c99/common/sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 /opt/microchip/xc8/v2.46/pic/sources/c99/common/Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 /opt/microchip/xc8/v2.46/pic/sources/c99/common/Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"20 /home/alpha/projects/Active/embedded-projects/barry-tek/curiousity_HPC_led_test_routine/src/main.c
+[v _set_lata set_lata `(v  1 e 1 0 ]
+"25
+[v _sequential_blink sequential_blink `(v  1 e 1 0 ]
+"39
+[v _alternate alternate `(v  1 e 1 0 ]
+"49
+[v _counter counter `(v  1 e 1 0 ]
+"57
+[v _test_routine test_routine `(v  1 e 1 0 ]
+"69
+[v _main main `(v  1 e 1 0 ]
+[s S42 . 1 `uc 1 NDIV 1 0 :4:0 
+`uc 1 NOSC 1 0 :3:4 
+]
+"16647 /opt/microchip/xc8/v2.46/pic/include/proc/pic18f47q10.h
+[s S45 . 1 `uc 1 NDIV0 1 0 :1:0 
+`uc 1 NDIV1 1 0 :1:1 
+`uc 1 NDIV2 1 0 :1:2 
+`uc 1 NDIV3 1 0 :1:3 
+`uc 1 NOSC0 1 0 :1:4 
+`uc 1 NOSC1 1 0 :1:5 
+`uc 1 NOSC2 1 0 :1:6 
+]
+[u S53 . 1 `S42 1 . 1 0 `S45 1 . 1 0 ]
+[v _OSCCON1bits OSCCON1bits `VES53  1 e 1 @3795 ]
+[s S68 . 1 `uc 1 HFFRQ 1 0 :4:0 
+]
+"17049
+[s S70 . 1 `uc 1 FRQ0 1 0 :1:0 
+`uc 1 FRQ1 1 0 :1:1 
+`uc 1 FRQ2 1 0 :1:2 
+`uc 1 FRQ3 1 0 :1:3 
+]
+[u S75 . 1 `S68 1 . 1 0 `S70 1 . 1 0 ]
+[v _OSCFRQbits OSCFRQbits `VES75  1 e 1 @3801 ]
+"19519
+[v _ANSELA ANSELA `VEuc  1 e 1 @3852 ]
+"27490
+[v _LATA LATA `VEuc  1 e 1 @3970 ]
+[s S86 . 1 `uc 1 LATA0 1 0 :1:0 
+`uc 1 LATA1 1 0 :1:1 
+`uc 1 LATA2 1 0 :1:2 
+`uc 1 LATA3 1 0 :1:3 
+`uc 1 LATA4 1 0 :1:4 
+`uc 1 LATA5 1 0 :1:5 
+`uc 1 LATA6 1 0 :1:6 
+`uc 1 LATA7 1 0 :1:7 
+]
+"27507
+[u S95 . 1 `S86 1 . 1 0 ]
+[v _LATAbits LATAbits `VES95  1 e 1 @3970 ]
+"27770
+[v _TRISA TRISA `VEuc  1 e 1 @3975 ]
+"69 /home/alpha/projects/Active/embedded-projects/barry-tek/curiousity_HPC_led_test_routine/src/main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"90
+} 0
+"57
+[v _test_routine test_routine `(v  1 e 1 0 ]
+{
+"59
+[v test_routine@i i `i  1 a 2 11 ]
+"67
+} 0
+"25
+[v _sequential_blink sequential_blink `(v  1 e 1 0 ]
+{
+"33
+[v sequential_blink@i_114 i `i  1 a 2 9 ]
+"29
+[v sequential_blink@i i `i  1 a 2 7 ]
+"27
+[v sequential_blink@leds leds `[4]uc  1 a 4 3 ]
+"26
+[v sequential_blink@F12917 F12917 `[4]uc  1 s 4 F12917 ]
+"37
+} 0
+"49
+[v _counter counter `(v  1 e 1 0 ]
+{
+"51
+[v counter@x x `uc  1 a 1 3 ]
+"55
+} 0
+"39
+[v _alternate alternate `(v  1 e 1 0 ]
+{
+"42
+[v alternate@x x `i  1 a 2 5 ]
+"41
+[v alternate@vals vals `[2]uc  1 a 2 3 ]
+"40
+[v alternate@F12922 F12922 `[2]uc  1 s 2 F12922 ]
+"47
+} 0
+"20
+[v _set_lata set_lata `(v  1 e 1 0 ]
+{
+[v set_lata@pins pins `uc  1 a 1 wreg ]
+[v set_lata@pins pins `uc  1 a 1 wreg ]
+"22
+[v set_lata@pins pins `uc  1 a 1 0 ]
+"23
+} 0
